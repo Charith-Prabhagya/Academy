@@ -1,0 +1,47 @@
+<section id="find-courses">
+  <!--HOME ICON SECTION  -->
+  <div id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-book-open fa-3x mb-2"></i>
+          <h3>100,000 online courses</h3>
+          <p>Explore a variety of fresh topics.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-chalkboard-teacher fa-3x mb-2"></i>
+          <h3>Expert instruction</h3>
+          <p>Find the right instructor for you.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-universal-access fa-3x mb-2"></i>
+          <h3>Lifetime access</h3>
+          <p>Learn on your schedule</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{!-- Search Cources --}}
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="p-2">
+          <h5 class="text-muted">Type something in the input field to search what you want.</h5>
+          <form class="form-inline">
+            <input type="text" class="form-control" id="searchInput" type="text" placeholder="Search..."
+              style="width: 800px">
+            <button class="btn btn-outline-success" id="searchBtn">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    {{!-- COURSES VIEW CARDS --}}
+    <div class="row">
+      <div class="col-lg-12 d-flex align-items-stretch">
+        <div id="showcourse" style="width: 100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

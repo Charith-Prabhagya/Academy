@@ -1,0 +1,70 @@
+body {
+    background: #333;
+    color: #fff;
+  }
+  
+  .navbar {
+    border-bottom: #5cb85c 3px solid;
+    opacity: 0.9;
+  }
+
+  #home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  }
+
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #home-section .home-inner {
+    padding-top: 150px;
+  }
+
+  #home-icons {
+    background: #fff;
+    color: #333;
+  }
+  #my-courses {
+    background: #fff;
+    color: #333;
+  }
+
+  .card{
+    background: #fff;
+    color: #333;
+  }
+
+  #home-section .card-form {
+    opacity: 0.8;
+  }
+
+  .bgdwhite {
+    background: #fff;
+    color: #333;
+  }
+
+  li{
+    padding: 10px;
+    text-align: justify;
+  }
+
+  input{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  
+/* .dropdown:hover>.dropdown-menu {
+    display: block;
+  }  */
+
+  
